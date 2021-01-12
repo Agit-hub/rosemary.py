@@ -39,7 +39,7 @@ bowl.add(BakingPowder.take('teaspoon'))
 bakingtray = BakingTray.use(name='cookies')
 plate = Plate.use()
 for i in range (2):
-    for i in range (12):
+    for i in range (24):
         bakingtray.add(bowl.take('1/24'))
     # cook 10
     oven.add(bakingtray)
